@@ -1,0 +1,348 @@
+
+	body{
+		background-color:#ffffff;
+	}
+	
+	h1{
+		color: #51B0B8;
+		font-family:"Verdana",sans-serif;
+		font-size:35px;
+		font-weight:bold;
+		text-align:left;
+		line-height: 85%;
+	}
+	
+	h2{
+		color: #51B0B8;
+		font-family:"Verdana",sans-serif;
+		font-size:15px;
+		font-weight:bold;
+		text-align:center;
+	}
+	
+	h3{
+		color: #51B0B8;
+		font-family:"Verdana",sans-serif;
+		font-size:24px;
+		font-weight:bold;
+		text-align:left;
+		line-height: 50%;
+	}
+	
+	
+	a{
+		font-family:"Verdana",sans-serif;
+		text-align:center;
+		color:#ffffff;
+		background-color:#51B0B8;
+	}
+		
+	a:hover{
+		background-color:#20878E;
+		color:#ffffff;
+	}
+	
+	table{
+		margin-left: 0px;
+		border: 5px solid #51B0B8;
+		border-collapse: collapse;
+		width: 1100px;
+		
+	}
+	tr{
+		width: 1100px;
+	}
+	td{
+		border: 5px solid #51B0B8;
+		border-collapse: collapse;
+		padding:10px;
+	}
+	
+	fieldset {
+		color: #51B0B8;
+		font-family:"Verdana",sans-serif;;
+		font-size:12px;
+		padding: 5px;
+	}
+	
+	fieldset label, form label{
+		color: #51B0B8;
+		font-family:"Verdana",sans-serif;
+		font-size:12px;
+		line-height:35px;
+	}
+
+	legend{
+		color: #51B0B8;
+		font-family:Verdana;
+		font-weight:bold;
+	}
+	
+	label,select{
+		font-family:"Verdana",sans-serif;
+		display:inline-block;
+		margin-right:10px;
+	}
+	
+	input[type='submit'],button{
+		background-color:#51B0B8;
+		font-family:"Verdana",sans-serif;
+		color:#ffffff;
+		padding: 5px 20px; 
+		border:0 none;
+		cursor:pointer;
+	}
+	
+	input[type='text'],input[type='number'],input[type='datetime-local']{
+		font-family:"Verdana", sans-serif;
+		color:#20878E;
+		border-color:#20878E;
+		border:3px solid #20878E;
+		border-radius:5px;
+		display:inline-block;
+		margin-right:25px;
+		margin-left:15px;
+		
+	}
+	
+	input[type='checkbox'],input[type="radio"]{
+		margin-top:12px;
+		margin-right:20px;
+		margin-left:0px;
+	}
+	
+	input[type=submit]:hover, button:hover{
+		background-color:#20878E;
+	}
+	
+	textarea { 
+		vertical-align: top; 
+	}​
+	
+	#mainlogo_pos{
+		position:absolute;
+		left:45px;
+		top:35px;	
+	}
+	
+	#logo_pos{
+		position:absolute;
+		left:45px;
+		top:35px;	
+	}
+		
+	#mainsignin_reg{
+		position:absolute;
+		right:40px;
+		top:20px;
+		width:200px;
+		font-size:20px;
+		padding:10px;
+	}
+	
+	#signin_reg{
+		position:absolute;
+		right:40px;
+		top:20px;
+		width:160px;
+		font-size:16px;
+		padding:10px;
+	}
+	
+	#mainnav{
+		position:absolute;
+		display: block;
+		top:160px; 
+		left:360px;
+	}
+	
+	#nav{
+		position:absolute;
+		display: block;
+		top:180px; 
+		left:280px;
+	}
+	
+	#mainnavbar {
+		list-style-type: none;
+		padding: 0;
+		overflow: hidden;
+		background-color: #51B0B8;
+		width: 1000px;
+	}
+	
+	#navbar {
+		list-style-type: none;
+		padding: 0;
+		overflow: hidden;
+		background-color: #51B0B8;
+		width: 900px;
+	}
+	
+	#mainsearchbutton{
+		position:absolute;
+		font-size:30px;
+		top:295px;
+		left:1225px;
+		border-radius: 20px;
+	}
+	
+	#searchbutton{
+		position:absolute;
+		font-size:20px;
+		top:85px;
+		left:1125px;
+		padding:10px;
+		border-radius: 20px;
+	}
+	
+	#mainsearchbar{
+		position:absolute;
+		font-size:25px;
+		top:240px;
+		left:400px;
+	}
+	
+	#searchbar{
+		display:block;
+		position:absolute;
+		font-size:22px;
+		margin:85px auto 10px 280px;
+	}
+	
+	#mainadv{
+		position:absolute;
+		font-size:16px;
+		top:295px;
+		left:420px;
+		padding:10px;
+		border-radius: 25px;
+	}
+	
+	#adv{
+		position:absolute;
+		font-size:12px;
+		top:140px;
+		left:290px;
+		padding:10px;
+		border-radius: 25px;
+	}
+	
+	#loggedon{
+		position:absolute;
+		top:20px;
+		right:20px;
+	}
+	
+	#exp{
+		margin-right:10px;
+		width:auto;
+	}
+		
+	#Login, #Register{
+		font-size:15px;
+	}
+		
+	#header{
+		height:240px;
+		overflow: hidden;
+	}
+	
+	#main{
+		color: #51B0B8;
+		font-size:12px;
+		position:relative;
+		background-color:#ffffff;
+		margin-left:100px;
+		margin-top:20px;
+	}
+	
+	#submit_item{
+		position:absolute;
+		font-size:18px;
+		padding:10px;
+		border-radius: 20px;
+		width:125px;
+	}
+	
+	#radiobuttonpos2{
+			position:absolute;
+			top:140px;
+			left:560px;
+	}
+	
+	.mainnavElement {
+		float: left;
+		font-size:25px;
+		width: 200px;
+	}
+			
+	.navElement {
+		float: left;
+		font-size:20px;
+		width: 180px;
+	}
+	
+	.mainnavElement a {
+			font-family:"Verdana",sans-serif;
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+	}
+		
+	.navElement a {
+		font-family:"Verdana",sans-serif;
+		position:relative;
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	
+	.user_logged{
+		position:relative;
+		font-size:18px;
+		padding:6px;
+		border-radius: 10px;
+	}
+
+	.loginlabel{
+		margin-right:10px;
+		width:65px;
+	}
+	
+	.uploadlabel{
+		font-size:12px;
+		width:120px;
+	}
+	
+	.logintable, .logintable td  {
+		margin-left: auto;
+		margin-right: auto;
+		border: 5px solid #51B0B8;
+		border-collapse: collapse;
+	}
+	.logintable td {
+		padding: 15px;
+		text-align: center;
+		height: 500px;
+		width: 480px;
+	}
+
+	.errmsg{
+		font-family:"Verdana",sans-serif;
+		font-size:12px;
+		color: red;
+	}
+
+	.checklabel{
+		margin-right:0px;
+		width:90px;
+	}
+
+		
+		
+		

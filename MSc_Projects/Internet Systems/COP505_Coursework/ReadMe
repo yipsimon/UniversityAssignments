@@ -1,0 +1,56 @@
+COP505 Internet Systems Assignement
+
+Start up instruction
+Project must be run on the university computers in the Linux or OSX partition.
+Open a shell (command line) terminal.
+Install “pymongo” and “requests” onto the system using the following terminal commands:
+
+	pip2 install requests --user
+	pip2 install pymongo –-user
+
+Now unzip the files and put them under the Home (~) directory.
+Open the files basestation.py and monitor.py and edit this line
+
+url = "http://cosyly@sci-project.lboro.ac.uk”
+
+Replace 'cosyly' with your own username for the sci-project. 
+(This line can be found in line 62, 94 of basestation.py and line 6 of monitor.py)
+
+Open dataprocess.py file, edit these lines
+
+client = MongoClient("mongodb://cosyly:4JbHBLrBqK@sci-project:27017/cosyly")
+db = client.cosyly
+
+Replace the 'cosyly' and '4JbHBLrBqk' with your own username and password for the mongo database.
+These lines are at line 10 and 11
+
+
+Next, open a new terminal to connect to the sci-project server. To do this, enter 
+	
+	ssh <username>@sci-project.lboro.ac.uk
+
+follow the instructions to connect to the server
+
+On your local terminal, enter the following command
+
+	scp dataprocess.py <username>@<username>.sci-project.lboro.ac.uk:dataprocess.py
+
+This should upload the dataprocess.py to the server. You can check this by using the ‘ls’ command in the server terminal.
+
+Now, when running dataprocess.py on the sci-project server, you must do so by running the following commands in the server terminal:
+
+	export FLASK_APP=dataprocess.py
+	flask run –-host=0.0.0.0 –-port=5001
+
+When running the base station, and network monitoring files, the user must compile using the command ‘python2’ rather than simply ‘python’ on a local terminal i.e:
+
+	python2 basestation.py
+	python2 monitor.py
+
+
+Base Station main thread controls
+
+After you have started the base station and it is generating mobile connection.
+Commands: 'start' or 'pause' will start/pause generating mobile connection in the base station.
+Command: 'stop' will terminate the base station and disconnect all current connection to the base station and remove all records including hte base station in the database.
+

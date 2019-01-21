@@ -1,0 +1,12 @@
+Route Leicester Loughborough
+Stop00,stop1
+
+Route Leicester Nottingham
+Stop6,Stop7,Stop8,Stop9,Stop0
+
+Route Leicester Derby     
+Stop1,stop2,stop3
+
+Route Nottingham Derby     
+Stop12,stop23,stop34,sto34,se234,stio3
+

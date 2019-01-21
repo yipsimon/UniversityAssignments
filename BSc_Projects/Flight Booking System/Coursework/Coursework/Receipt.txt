@@ -1,0 +1,15 @@
+
+*********************************Receipt*********************************
+
+Flight Information
+
+Journey: EMA>>CDG>>SXF>>VIE            Date of Flight: 12 December 2015
+With Airline(s):  
+Ryanair ---> AirEuropa ---> AirEuorpa           
+
+FlightDuration:       460       TicketPrice:  610     
+FlightConnectionTime: 200       DepartureTax: 120    
+------------------------------------------------------
+TotalDuration:        660       TotalPrice:   730     
+
+Thank you booking a flight with us, 

@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2015" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false"><Zoom percentage="98"/>
+</View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="10000" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" contextmenusize="automatic" plotdriver="opengl" elisiondigitsafter="100" plotoutput="terminal" helpbrowser="standard" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="10000" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" quiet="false" errorcursor="false" longdelim="true" plotoptions="" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="-1" screenpixelheight="1080" warnlevel="3" screenheight="25" latexwidth="8.0" postplot="" prompt="&gt; " ShowLabels="true"/>
+<Styles>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group labelreference="L1" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L3" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field style="Text" layout="Normal"><Font family="Courier New">Numerical Methods 2 - Coursework 2 - Maple Listing</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field style="Text" layout="Normal"><Font family="Courier New">[1] Below is the 4th Runge-Kutta Method procedure</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L2" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">fourthRK_syst := proc(f, x0, y0, xend, n)         <Font foreground="[255,0,0]">#Start the procedure
+#f is a vector function (returns a list) 
+#x0 is the initial value of the independent variable 
+#y0 is the list of the initial values of the dependent variables
+#xend is the end point, n is the number of steps</Font>
+   local xi,disp,velo,yi,i,k,k0,k1,k2,k3,h,tlist,wlist;  <Font foreground="[255,0,0]">#Define local variables</Font>
+   Digits:=10:                         <Font foreground="[255,0,0]">#Define the digits used in calculations</Font>
+   h:=evalf((xend-x0)/n);             <Font foreground="[255,0,0]">#Calculate the step size</Font>
+   printf(&quot;%s %1.10f  &quot;,&quot;h=&quot;, h);      <Font foreground="[255,0,0]">#Print the step size</Font>
+     xi := x0;     <Font foreground="[255,0,0]">#Initialise the independent variable</Font>
+     yi := y0;     <Font foreground="[255,0,0]">#Initialise the dependent variables</Font>
+     <Font foreground="[255,0,0]">#tlist will be the list of xi values (independent variable). wlist will be the list of yi values (dependent variables). Here we initialise them</Font>
+     tlist:=xi;     
+     wlist:=yi; 
+     for i from 1 to n do                          <Font foreground="[255,0,0]">#Start the loop</Font>
+         k0 := evalf(h*f(xi,yi[]));                <Font foreground="[255,0,0]">#Calculating the k0 value for 4th Runge-Kutta step</Font>
+         k1:=evalf(h*f(xi+(h/2),yi[] + (k0[]/2))); <Font foreground="[255,0,0]">#Calculating the k1 value for 4th Runge-Kutta step
+</Font>         k2:=evalf(h*f(xi+(h/2),yi[] + (k1[]/2))); <Font foreground="[255,0,0]">#Calculating the k2 value for 4th Runge-Kutta step
+</Font>         k3:=evalf(h*f(xi+h,yi[] + k2[]));         <Font foreground="[255,0,0]">#Calculating the k3 value for 4th Runge-Kutta step
+</Font>         yi:=evalf(yi + (k0 + 2*k1 + 2*k2 + k3)/6);   <Font foreground="[255,0,0]">#4th Runge-Kutta step</Font>
+         xi:=evalf(xi+h);                             <Font foreground="[255,0,0]">#Advance the independent variable
+         #Store the new yi and xi values into their respective lists
+</Font>         tlist:=tlist,xi;
+         wlist:=wlist,yi;
+     end do;                                     <Font foreground="[255,0,0]">#End the main loop</Font>
+   <Font foreground="[255,0,0]"># The following commands are used to print the last results onto the screen</Font>
+   printf(&quot;%s%1.10f &quot;,&quot;t=&quot;, xi);               <Font foreground="[255,0,0]">#Print the independent variable</Font>
+     for k from 1 to numelems(yi) do          
+             printf(&quot;%1.10f  &quot;, yi[k]);        <Font foreground="[255,0,0]">#Print the list of dependent variables</Font>
+     end do:  
+   return [[tlist],[wlist]];
+end proc:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L6" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field style="Text" foreground="[120,0,14]" layout="Normal"><Font family="Courier New" foreground="[0,0,0]">[2] Question 1)
+    a) Solution of the equation governing the motion of a pendulum</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">a := 424047/(10^6);      <Font foreground="[255,0,0]"># My personal constant</Font>
+g := 9.81;               
+l := evalf(1 + 2*a);    
+f := (t,theta,w) -&gt; [w,-(g/l)*sin(theta)]; <Font foreground="[255,0,0]"># Equation governing the motion of a pendulum</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L7" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">data := fourthRK_syst(f,0,[Pi/3,0],10,160): <Font foreground="[255,0,0]"># Solution using the 4th Runge-Kutta procedure</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1696" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field style="Text" layout="Normal"><Font family="Courier New">[3] Separating the data value obtained from the 4th Runge-Kutta procedure and storing them as a list with their respective time values. </Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L56" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">dispvalue:=NULL: velovalue:=NULL: <Font foreground="[255,0,0]"># Initialising empty data variables</Font>
+<Font foreground="[255,0,0]"># This for loop will loop through the data obtained from the 4th Runge-Kutta procedure,separating angular displacement and the angular velocity stored in wlist in the procedure.</Font>
+for i from 1 to numelems(data[2]) do    
+   dispvalue:=dispvalue,data[2][i][1];      <Font foreground="[255,0,0]"># This extract the displacement values from data</Font>
+   velovalue:=velovalue,data[2][i][2];      <Font foreground="[255,0,0]"># This extract the velocity values from data</Font>
+end:
+dispvalue:= [dispvalue]: velovalue := [velovalue]: <Font foreground="[255,0,0]"># Setting the extracted value into a list.</Font>
+disp:=zip(`[]`,data[1],dispvalue):  <Font foreground="[255,0,0]"># Combining the time values (data[1]) and the extracted displacement values together</Font>
+velo:=zip(`[]`,data[1],velovalue):  <Font foreground="[255,0,0]"># Combining the time values (data[1]) and the extracted velocity values together</Font>
+dispvelo := zip(`[]`,dispvalue,velovalue):  
+velodisp := zip(`[]`,velovalue,dispvalue):    <Font foreground="[255,0,0]"># Combining the extracted velocity and displacement values together</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1526" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field style="Text" layout="Normal"><Font family="Courier New">[4] 1)b)i) The code below produce a plot of the angular displacement and the angular velocity against time from the data we obtained from the 4th Runge-Kutta</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L58" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(plots):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L10" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">plot([disp,velo], axis[2] = [gridlines=[linestyle=dot]] , color = [red,blue], linestyle = [solid,solid], title=typeset(&quot;Graph of the angular displacement and the angular velocity against time&quot;),titlefont=[&quot;Helvetica&quot;,10],axesfont=[&quot;Helvetica&quot;,10], labelfont=[&quot;Helvetica&quot;,10,italic],  labels = [&quot;t time&quot;,typeset('theta[1],&quot;, &quot;,theta[2]')], <Font font_style_name="Help Maple Name" superscript="false" placeholder="false" executable="true" selection-placeholder="false" italic="false" size="12" bold="true" style="Help Maple Name" subscript="false" family="Courier New" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[120,0,14]">labeldirections=[horizontal</Font>, vertical<Font font_style_name="Help Maple Name" superscript="false" placeholder="false" executable="true" selection-placeholder="false" italic="false" size="12" bold="true" style="Help Maple Name" subscript="false" family="Courier New" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[120,0,14]">], </Font>legend = [typeset('theta[1]'= theta(t)),typeset('theta[2]'= diff(theta(t),t))], legendstyle = [font = [&quot;ROMAN&quot;, 10], location = bottom]);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L1528" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field style="Text" layout="Normal"><Font family="Courier New">[5] 1)b)ii) The code below produce a plot of the angular displacement against the angular velocity</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L11" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">plot([velodisp], axes = boxed, title=typeset(&quot;Graph of the angular displacement against the angular velocity&quot;),titlefont=[&quot;Helvetica&quot;,12], color = [red], linestyle = [solid], axesfont=[&quot;Helvetica&quot;,10], labelfont=[&quot;Helvetica&quot;,10,italic],  labels = [ typeset(&quot;angular velocity &quot;,diff(theta(t),t)),typeset(&quot;angular displacement  &quot;,theta(t))], <Font font_style_name="Help Maple Name" superscript="false" placeholder="false" executable="true" selection-placeholder="false" italic="false" size="12" bold="true" style="Help Maple Name" subscript="false" family="Courier New" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[120,0,14]">labeldirections=[horizontal</Font>, vertical<Font font_style_name="Help Maple Name" superscript="false" placeholder="false" executable="true" selection-placeholder="false" italic="false" size="12" bold="true" style="Help Maple Name" subscript="false" family="Courier New" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[120,0,14]">]</Font>);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L1558" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field style="Text" layout="Normal"><Font family="Courier New" encoding="UTF-8">[6] 1)c) The code below finds the period of oscillation of the pendulum correct to three signi\357\254\201cant \357\254\201gures   </Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L12" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for j from 1 to numelems(velo) do   <Font foreground="[255,0,0]"># This for loop will loop through velocity list of data</Font>
+<Font foreground="[255,0,0]"># If the current velocity value is negative and the next velocity value is positive, then we have found the points that between the value zero.</Font>
+    if (evalf(velo[j][2]) &lt; 0 and evalf(velo[j+1][2]) &gt; 0) then  
+          x1:=velo[j][1];          <Font foreground="[255,0,0]"># Storing the time value of current iteration</Font>
+          x2:=velo[j+1][1];        <Font foreground="[255,0,0]"># Storing the next time value</Font>
+          y1:=velo[j][2];          <Font foreground="[255,0,0]"># Storing the velocity value of current iteration</Font>
+          y2:=velo[j+1][2];        <Font foreground="[255,0,0]"># Storing the next velocity value</Font>
+          <Font foreground="[255,0,0]"># Using the value we have obtained, we estimate the time when the velocity is at zero using linear interpolation. </Font>
+          zeropoint := x1 - ((y1*(x2-x1))/(y2-y1)); 
+          period := 2*zeropoint;  <Font foreground="[255,0,0]"># Multiple the result by 2 to obtain the period. </Font>
+          print(period);         <Font foreground="[255,0,0]"># Print the period of oscillation of the pendulum on screen</Font>
+          break;                 <Font foreground="[255,0,0]"># Stop the for loop</Font>
+    end if:                      <Font foreground="[255,0,0]"># End of if statement</Font>
+end do:                          <Font foreground="[255,0,0]"># End of for loop</Font> </Text-field>
+</Input>
+</Group>
+<Group labelreference="L14" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">estzero := 2*Pi*sqrt(l/g);       <Font foreground="[255,0,0]"># This is the value given in the task</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1698" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field style="Text" foreground="[120,0,14]" layout="Normal"><Font family="Courier New" foreground="[0,0,0]">[7] Question 2)
+<Font encoding="UTF-8">    a) The solution to the system of equations that describes the motion of a rigid body when the applied torques depend linearly on the angular velocities about the principal axes of inertia \357\254\201xed at the centre of mass up to a time of tend = 2. Use the initial conditions x(0) = 0.2, y(0) = -0.2 and z(0) = 0.2 + \316\261/100</Font></Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L15" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">para0:=[0.2,-0.2,evalf(0.2 + a/100)]; <Font foreground="[255,0,0]"># These are the inital conditions of x(0), y(0) and z(0) respectively</Font>
+g := (t,x,y,z) -&gt; [-1*y*z+5*x, 1*x*z+(-10)*y, (1/3)*x*y+(-3.8)*z]; <Font foreground="[255,0,0]">#  This is the system of ODE that describes the motion of a rigid body.</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L17" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ndata := fourthRK_syst(g,0,para0,2,2500): <Font foreground="[255,0,0]"># Solving the system of equation up to a time 2 with 4th Runge-Kutta procedure</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1562" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field style="Text" layout="Normal"><Font family="Courier New">[8] Separating the data value obtained from the 4th Runge-Kutta procedure and storing them as a list with their respective time values. </Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L18" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ndata2:=NULL: ndata3:=NULL: ndata4:=NULL; <Font foreground="[255,0,0]"># Initialising empty data variables</Font>
+<Font foreground="[255,0,0]"># This for loop will loop through the data obtained from the 4th Runge-Kutta procedure,separating x,y,z data stored in wlist in the procedure.</Font>
+for i from 1 to numelems(ndata[2]) do
+   ndata2:=ndata2,ndata[2][i][1]:   <Font foreground="[255,0,0]"># This extract the x(t) values from ndata</Font>
+   ndata3:=ndata3,ndata[2][i][2]:   <Font foreground="[255,0,0]"># This extract the y(t) values from ndata</Font>
+   ndata4:=ndata4,ndata[2][i][3]:   <Font foreground="[255,0,0]"># This extract the z(t) values from ndata</Font>
+end do:<Font foreground="[255,0,0]">
+# Setting the extracted value into a list.</Font>
+ndata2:= [ndata2]:
+ndata3 := [ndata3]:
+ndata4 := [ndata4]:
+xdata:=zip(`[]`,ndata[1],ndata2):   <Font foreground="[255,0,0]"># Combining the time values (ndata[1]) and the extracted x(t) values together</Font>
+ydata:=zip(`[]`,ndata[1],ndata3):   <Font foreground="[255,0,0]"># Combining the time values (ndata[1]) and the extracted y(t) values together</Font>
+zdata:= zip(`[]`,ndata[1],ndata4):  <Font foreground="[255,0,0]"># Combining the time values (ndata[1]) and the extracted z(t) values together</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1699" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field style="Text" layout="Normal"><Font family="Courier New">[9] 2)b)i) The code below produce a plot of x(t), y(t) and z(t) against time on the same graph in the time domain</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L901" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(plots):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L19" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">plot([xdata,ydata,zdata], axes = boxed, axis = [gridlines=[linestyle=dot]], title=typeset(&quot;Graph of the components of the angular velocity 'x(t), y(t) and z(t)' about the principal axes of inertia against time&quot;),titlefont=[&quot;Helvetica&quot;,10], color = [red,blue,green], linestyle = [solid,solid,solid], axesfont=[&quot;Helvetica&quot;,10], labelfont=[&quot;Helvetica&quot;,10,italic],  labels = [&quot;time t&quot;,&quot;Angular velocity&quot;], <Font font_style_name="Help Maple Name" superscript="false" placeholder="false" executable="true" selection-placeholder="false" italic="false" size="12" bold="true" style="Help Maple Name" subscript="false" family="Courier New" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[120,0,14]">labeldirections=[horizontal</Font>, vertical<Font font_style_name="Help Maple Name" superscript="false" placeholder="false" executable="true" selection-placeholder="false" italic="false" size="12" bold="true" style="Help Maple Name" subscript="false" family="Courier New" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[120,0,14]">], </Font>legend = ['x(t)','y(t)','z(t)'], legendstyle = [font = [&quot;ROMAN&quot;, 10], location = bottom]);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L1700" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field style="Text" layout="Normal"><Font family="Courier New">[10] 2)b)ii) The code below produce a plot of the trajectory (x(t),y(t),z(t)) in the xyz-space, in the three-dimensional phase domain</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1328" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">pointplot3d(ndata[2], connect=true, title=typeset(&quot;The trajectory of 'x(t),y(t),z(t)' in the three -dimensional phase domain&quot;),titlefont=[&quot;Helvetica&quot;,10],axesfont=[&quot;Helvetica&quot;,10], labelfont=[&quot;Helvetica&quot;,10,italic],  labels = [&quot;x(t)&quot;,&quot;y(t)&quot;,&quot;z(t)&quot;], <Font font_style_name="Help Maple Name" superscript="false" placeholder="false" executable="true" selection-placeholder="false" italic="false" size="12" bold="true" style="Help Maple Name" subscript="false" family="Courier New" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[120,0,14]">labeldirections=[horizontal</Font>, horizontal, vertical<Font font_style_name="Help Maple Name" superscript="false" placeholder="false" executable="true" selection-placeholder="false" italic="false" size="12" bold="true" style="Help Maple Name" subscript="false" family="Courier New" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[120,0,14]">]</Font> );</Text-field>
+</Input>
+</Group>
+<Group labelreference="L1329" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1609" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field style="Text" layout="Normal"><Font family="Courier New">[11] 2)c) The code below define two new inital conditions of x(0), y(0) and z(0) respectively where z(0) and y(0) is changed</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L987" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">para1:=[0.2,-0.2,evalf(-0.2 + a/100)]; <Font foreground="[255,0,0]"># z(0) is changed compare to before</Font>
+para2:=[0.2,0.2,-0.2]; <Font foreground="[255,0,0]"># y(0) and z(0) is changed compare to before</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1332" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">n1data := fourthRK_syst(g, 0, para1, 10, 25000): <Font foreground="[255,0,0]"># Calculating new solution of ODE using new initial condition (para1) with time upto 10. </Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1610" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">n2data := fourthRK_syst(g,0,para2,10,25000): <Font foreground="[255,0,0]"># Calculating new solution of ODE using new initial condition (para2) with time upto 10. </Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1735" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">xyzn1data:= n1data[2]: xyzn2data:= n2data[2]: <Font foreground="[255,0,0]"># Storing the dependent variables into lists
+# NOTE: The loop below will take around 1-2 minute for it to finish sorting. (last timed 1:10 sec)</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1333" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[255,0,0]"># Similar to above, this for loop will loop through the data obtained from the 4th Runge-Kutta procedure,separating x,y,z data stored in wlist in the procedure.</Font>
+n1data2:=NULL: n1data3:=NULL: n1data4:=NULL; <Font foreground="[255,0,0]"># Initialising empty data variables</Font>
+n2data2:=NULL: n2data3:=NULL: n2data4:=NULL; <Font foreground="[255,0,0]"># Initialising empty data variables</Font>
+<Font foreground="[255,0,0]"># This for loop will loop through the data obtained from the 4th Runge-Kutta procedure,separating x,y,z data stored in wlist for n1data nad n2data.</Font>
+for j from 1 to numelems(n1data[2]) do
+   n1data2:=n1data2,xyzn1data[j][1]: 
+   n1data3:=n1data3,xyzn1data[j][2]:
+   n1data4:=n1data4,xyzn1data[j][3]:
+   n2data2:=n2data2,xyzn2data[j][1]:
+   n2data3:=n2data3,xyzn2data[j][2]:
+   n2data4:=n2data4,xyzn2data[j][3]:
+end do:
+n1data2:= [n1data2]:
+n1data3 := [n1data3]:
+n1data4 := [n1data4]:
+n2data2:= [n2data2]:
+n2data3 := [n2data3]:
+n2data4 := [n2data4]:
+x1data:=zip(`[]`,n1data[1],n1data2):
+y1data:=zip(`[]`,n1data[1],n1data3):
+z1data:= zip(`[]`,n1data[1],n1data4):
+x2data:=zip(`[]`,n2data[1],n2data2):
+y2data:=zip(`[]`,n2data[1],n2data3):
+z2data:= zip(`[]`,n2data[1],n2data4):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L1701" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field style="Text" layout="Normal"><Font family="Courier New">[12] 2)c)i) The code below produce a plot of x(t), y(t) and z(t) against time on the same graph in the time domain for para1</Font> </Text-field>
+</Input>
+</Group>
+<Group labelreference="L1334" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">plot([x1data,y1data,z1data], axes = boxed, axis = [gridlines=[linestyle=dot]], title=typeset(&quot;Graph of the components of the angular velocity 'x1(t), y1(t) and z1(t)' about the principal axes of inertia against time&quot;),titlefont=[&quot;Helvetica&quot;,10], color = [red,blue,green], linestyle = [solid,solid,solid], axesfont=[&quot;Helvetica&quot;,10], labelfont=[&quot;Helvetica&quot;,10,italic],  labels = [&quot;time t&quot;,typeset('x(t)',&quot;, &quot;,'y(t)',&quot;, &quot;,'z(t)')], <Font font_style_name="Help Maple Name" superscript="false" placeholder="false" executable="true" selection-placeholder="false" italic="false" size="12" bold="true" style="Help Maple Name" subscript="false" family="Courier New" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[120,0,14]">labeldirections=[horizontal</Font>, vertical<Font font_style_name="Help Maple Name" superscript="false" placeholder="false" executable="true" selection-placeholder="false" italic="false" size="12" bold="true" style="Help Maple Name" subscript="false" family="Courier New" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[120,0,14]">], </Font>legend = ['x1(t)','y1(t)','z1(t)'], legendstyle = [font = [&quot;ROMAN&quot;, 10], location = bottom]);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L1702" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field style="Text" layout="Normal"><Font family="Courier New">[13] 2)c)i) The code below produce a plot of x(t), y(t) and z(t) against time on the same graph in the time domain for para2</Font> </Text-field>
+</Input>
+</Group>
+<Group labelreference="L1335" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">plot([x2data,y2data,z2data], axes = boxed,  axis = [gridlines=[linestyle=dot]], title=typeset(&quot;Graph of the components of the angular velocity 'x2(t), y2(t) and z2(t)' about the principal axes of inertia against time&quot;),titlefont=[&quot;Helvetica&quot;,10], color = [red,blue,green], linestyle = [solid,solid,solid], axesfont=[&quot;Helvetica&quot;,10], labelfont=[&quot;Helvetica&quot;,10,italic],  labels = [&quot;time t&quot;,typeset('x(t)',&quot;, &quot;,'y(t)',&quot;, &quot;,'z(t)')], <Font font_style_name="Help Maple Name" superscript="false" placeholder="false" executable="true" selection-placeholder="false" italic="false" size="12" bold="true" style="Help Maple Name" subscript="false" family="Courier New" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[120,0,14]">labeldirections=[horizontal</Font>, vertical<Font font_style_name="Help Maple Name" superscript="false" placeholder="false" executable="true" selection-placeholder="false" italic="false" size="12" bold="true" style="Help Maple Name" subscript="false" family="Courier New" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[120,0,14]">], </Font>legend = ['x2(t)','y2(t)','z2(t)'], legendstyle = [font = [&quot;ROMAN&quot;, 10], location = bottom]);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L1703" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field style="Text" layout="Normal"><Font family="Courier New">[14] 2)b)i) The code below produce a plot of the trajectory (x(t),y(t),z(t)) in the xyz-space, in the three-dimensional phase domain for para1 </Font> </Text-field>
+</Input>
+</Group>
+<Group labelreference="L1336" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">pointplot3d(n1data[2],connect=true, colour=red, title=typeset(&quot;The trajectory of 'x1(t),y1(t),z1(t)' in the three -dimensional phase domain&quot;),titlefont=[&quot;Helvetica&quot;,10],axesfont=[&quot;Helvetica&quot;,10], labelfont=[&quot;Helvetica&quot;,10,italic],  labels = [&quot;x1(t)&quot;,&quot;y1(t)&quot;,&quot;z1(t)&quot;], <Font font_style_name="Help Maple Name" superscript="false" placeholder="false" executable="true" selection-placeholder="false" italic="false" size="12" bold="true" style="Help Maple Name" subscript="false" family="Courier New" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[120,0,14]">labeldirections=[horizontal</Font>, horizontal, vertical<Font font_style_name="Help Maple Name" superscript="false" placeholder="false" executable="true" selection-placeholder="false" italic="false" size="12" bold="true" style="Help Maple Name" subscript="false" family="Courier New" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[120,0,14]">]</Font>);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L1704" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field style="Text" layout="Normal"><Font family="Courier New">[15] 2)b)ii) The code below produce a plot of the trajectory (x(t),y(t),z(t)) in the xyz-space, in the three-dimensional phase domain for para2 </Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1337" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">pointplot3d(n2data[2],connect=true, colour=blue, title=typeset(&quot;The trajectory of 'x2(t),y2(t),z2(t)' in the three -dimensional phase domain&quot;),titlefont=[&quot;Helvetica&quot;,10],axesfont=[&quot;Helvetica&quot;,10], labelfont=[&quot;Helvetica&quot;,10,italic],  labels = [&quot;x2(t)&quot;,&quot;y2(t)&quot;,&quot;z2(t)&quot;], <Font font_style_name="Help Maple Name" superscript="false" placeholder="false" executable="true" selection-placeholder="false" italic="false" size="12" bold="true" style="Help Maple Name" subscript="false" family="Courier New" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[120,0,14]">labeldirections=[horizontal</Font>, horizontal, vertical<Font font_style_name="Help Maple Name" superscript="false" placeholder="false" executable="true" selection-placeholder="false" italic="false" size="12" bold="true" style="Help Maple Name" subscript="false" family="Courier New" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[120,0,14]">]</Font>);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L1688" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field style="Text" family="Courier New" layout="Normal"><Font family="Courier New">[16] 2)d) Using the step size determined in part 2(c) and calculate the solutions for the same parameters for both sets of initial conditions up to tend = 50. </Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1397" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">n4data := fourthRK_syst(g, 0, para1, 50, 25000): <Font foreground="[255,0,0]"># Calculating solution of ODE using initial condition (para1) with time upto 50. </Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1398" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">n5data := fourthRK_syst(g,0,para2,50,25000): <Font foreground="[255,0,0]"># Calculating solution of ODE using initial condition (para2) with time upto 50. </Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1836" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">xyzn4data:= n4data[2]: xyzn5data:= n5data[2]: <Font foreground="[255,0,0]"># Storing the dependent variables into lists
+# NOTE: The loop below will take around 1-2 minute for it to finish sorting. (last timed 1:00 sec)</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1396" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[255,0,0]"># Similar to above, this for loop will loop through the data obtained from the 4th Runge-Kutta procedure,separating x,y,z data stored in wlist in the procedure.</Font>
+n4data2:=NULL: n4data3:=NULL: n4data4:=NULL;
+n5data2:=NULL: n5data3:=NULL: n5data4:=NULL;
+for j from 1 to numelems(n4data[2]) do
+   n4data2:=n4data2,xyzn4data[j][1]:
+   n4data3:=n4data3,xyzn4data[j][2]:
+   n4data4:=n4data4,xyzn4data[j][3]:
+   n5data2:=n5data2,xyzn5data[j][1]:
+   n5data3:=n5data3,xyzn5data[j][2]:
+   n5data4:=n5data4,xyzn5data[j][3]:
+end do:
+n4data2:= [n4data2]:
+n4data3 := [n4data3]:
+n4data4 := [n4data4]:
+n5data2:= [n5data2]:
+n5data3 := [n5data3]:
+n5data4 := [n5data4]:
+x4data:=zip(`[]`,n4data[1],n4data2):
+y4data:=zip(`[]`,n4data[1],n4data3):
+z4data:= zip(`[]`,n4data[1],n4data4):
+x5data:=zip(`[]`,n5data[1],n5data2):
+y5data:=zip(`[]`,n5data[1],n5data3):
+z5data:= zip(`[]`,n5data[1],n5data4):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L1705" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field style="Text" family="Courier New" layout="Normal"><Font family="Courier New">[17] 2)d) For both sets of the initial conditions, we now define another two new set and slightly changing the initial condition x(0) to be 0.2 + 10^(-3).  </Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1403" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[255,0,0]"># Defining another two new inital conditions of x(0), y(0) and z(0) respectively where x(0) is changed.</Font>
+para6:=[0.2 + 10^(-3),-0.2,evalf(-0.2 + a/100)];  <Font foreground="[255,0,0]"># x(0) is changed to 0.2 + 10^(-3)</Font>
+para7:=[0.2 + 10^(-3),0.2,-0.2];                  <Font foreground="[255,0,0]"># x(0) is changed to 0.2 + 10^(-3)</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1399" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">n6data := fourthRK_syst(g, 0, para6, 50, 25000): <Font foreground="[255,0,0]"># Calculating new solution of ODE using new initial condition (para6) with time upto 50. </Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1689" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">n7data := fourthRK_syst(g,0,para7,50,25000): <Font foreground="[255,0,0]"># Calculating new solution of ODE using new initial condition (para7) with time upto 50. </Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1837" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">xyzn6data:= n6data[2]: xyzn7data:= n7data[2]: <Font foreground="[255,0,0]"># Storing the dependent variables into lists
+# NOTE: The loop below will take around 1-2 minute for it to finish sorting.(last timed 1:25 sec)</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1402" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[255,0,0]"># Similar to above, this for loop will loop through the data obtained from the 4th Runge-Kutta procedure,separating x,y,z data stored in wlist in the procedure.</Font>
+n6data2:=NULL: n6data3:=NULL: n6data4:=NULL;
+n7data2:=NULL: n7data3:=NULL: n7data4:=NULL;
+for j from 1 to numelems(n6data[2]) do
+   n6data2:=n6data2,xyzn6data[j][1]:
+   n6data3:=n6data3,xyzn6data[j][2]:
+   n6data4:=n6data4,xyzn6data[j][3]:
+   n7data2:=n7data2,xyzn7data[j][1]:
+   n7data3:=n7data3,xyzn7data[j][2]:
+   n7data4:=n7data4,xyzn7data[j][3]:
+end do:
+n6data2:= [n6data2]:
+n6data3 := [n6data3]:
+n6data4 := [n6data4]:
+n7data2:= [n7data2]:
+n7data3 := [n7data3]:
+n7data4 := [n7data4]:
+x6data:=zip(`[]`,n6data[1],n6data2):
+y6data:=zip(`[]`,n6data[1],n6data3):
+z6data:= zip(`[]`,n6data[1],n6data4):
+x7data:=zip(`[]`,n7data[1],n7data2):
+y7data:=zip(`[]`,n7data[1],n7data3):
+z7data:= zip(`[]`,n7data[1],n7data4):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L1707" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field style="Text" layout="Normal"><Font family="Courier New">[18] 2)d) Comparing the trajectory of x(t) obtained from para1 and para6</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1401" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">plot([x4data,x6data], axes = boxed,  axis = [gridlines=[linestyle=dot]], title=typeset(&quot;Comparing the trajectory when slightly changing the initial condition x(0) against the time domain&quot;),titlefont=[&quot;Helvetica&quot;,10], color = [red,blue], linestyle = [solid,solid], axesfont=[&quot;Helvetica&quot;,10], labelfont=[&quot;Helvetica&quot;,10,italic],  labels = [&quot;time t&quot;,typeset('x(t)')], <Font font_style_name="Help Maple Name" superscript="false" placeholder="false" executable="true" selection-placeholder="false" italic="false" size="12" bold="true" style="Help Maple Name" subscript="false" family="Courier New" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[120,0,14]">labeldirections=[horizontal</Font>, vertical<Font font_style_name="Help Maple Name" superscript="false" placeholder="false" executable="true" selection-placeholder="false" italic="false" size="12" bold="true" style="Help Maple Name" subscript="false" family="Courier New" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[120,0,14]">], </Font>legend = ['x4(t)','x6(t)'], legendstyle = [font = [&quot;ROMAN&quot;, 10], location = bottom]);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L1692" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">plot([x5data,x7data], axes = boxed, color = [black,green], title=typeset(&quot;Comparing the trajectory when slightly changing the initial condition x(0) against the time domain&quot;),titlefont=[&quot;Helvetica&quot;,10], linestyle = [solid,solid], axesfont=[&quot;Helvetica&quot;,10], labelfont=[&quot;Helvetica&quot;,10,italic],  labels = [&quot;time t&quot;,typeset('x(t)')], <Font font_style_name="Help Maple Name" superscript="false" placeholder="false" executable="true" selection-placeholder="false" italic="false" size="12" bold="true" style="Help Maple Name" subscript="false" family="Courier New" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[120,0,14]">labeldirections=[horizontal</Font>, vertical<Font font_style_name="Help Maple Name" superscript="false" placeholder="false" executable="true" selection-placeholder="false" italic="false" size="12" bold="true" style="Help Maple Name" subscript="false" family="Courier New" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[120,0,14]">], </Font>legend = ['x5(t)','x7(t)'], legendstyle = [font = [&quot;ROMAN&quot;, 10], location = bottom]);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L1693" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Worksheet>
